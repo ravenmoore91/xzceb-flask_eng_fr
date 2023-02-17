@@ -25,5 +25,4 @@ class TestF2E(unittest.TestCase):
         # Test empty string returns empty string
         self.assertNotEqual(french_to_english(0),0)
 
-if __name__ == '__main__':
-    unittest.main()
+unittest.main()
